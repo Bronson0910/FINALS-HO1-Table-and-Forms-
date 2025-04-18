@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Table & Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table id="Money"> 
+        <caption>Invoice Tabular Data</caption>
+    <thead>
+        <tr>
+           <th align="left">Invoice New Customer</th>
+           <th align="left" colspan="3">April 18, 2025</th>
+        </tr>
+       
+       <tr>
+         <td><strong>Registered to:</strong></td>
+         <td><strong>Customer:</strong></td>
+       </tr>
+       
+        <tr>
+         <td>Banko Central</td>
+         <td> Wilbronson Gonao</td>
+       </tr>
+       
+       <tr>
+         <td>3158 Cute St.</td>
+         <td> 1080 Kundiman St.</td>
+       </tr>
+       
+        <tr>
+         <td>Region VI:NA321567 </td>
+         <td>Region VI:N547567</td>
+       </tr>
+    </thead>
+       
+    <tbody>
+       <tr>
+         <th align="left">Name / Description</th>
+         <th align="left">Qty.</th>
+         <th align="right">Serial#</th>
+       </tr>
+       
+       <tr>
+         <td>One Thousand</td>
+         <td>4</td>
+         <td>N1238479</td>
+       </tr>
+       <tr>
+         <td></td>
+         <td></td>
+         <td>N3282397</td>
+       </tr>
+       <tr>
+         <td></td>
+         <td></td>
+         <td>N3282537</td>
+       </tr>
+       <tr>
+         <td></td>
+         <td></td>
+         <td>N3282392</td>
+       </tr>
+       
+       
+       <tr>
+         <td>Two Hundred</td>
+         <td>3</td>
+         <td>N3282369</td>
+       </tr>
+       <tr>
+         <td></td>
+         <td></td>
+         <td>N3131232</td>
+       </tr>
+       <tr>
+         <td></td>
+         <td></td>
+         <td>N3312392</td>
+       </tr>
+       
+         
+       <tr>
+         <td>One Hundred</td>
+         <td>3</td>
+         <td>N3282369</td>
+       </tr>
+       <tr>
+         <td></td>
+         <td></td>
+         <td>N3131232</td>
+       </tr>
+       <tr>
+         <td></td>
+         <td></td>
+         <td>N3312392</td>
+       </tr>
+       
+        <tr>
+         <td colspan="2"><strong>Total:</strong></td>
+         <td>10</td>
+       </tr>
+       
+       <tr>
+         <td><strong>Tax</strong></td>
+         <td>10%</td>
+       </tr>
+    </tbody>
+       
+    <tfoot>
+        <tr>
+         <th colspan="2"><strong>Grand Total:</strong></th>
+         <th colspan="2">10</th>
+       </tr>
+    </tfoot>
+       
+       
+  </table>
+  <br><br><br><br>
+
+  
+    <table>
+      <caption> Physical Test Form</caption>
+      <thead>
+        <tr>
+          <th>Name</th> <th> Value</th>
+        </tr>
+      </thead>
+      
+      <tbody>
+        <tr>
+          <td><label for="name">Name: </label></td>
+          <td><input type="text" name="name" size="30" placeholder="Input your name" maxlength ="60" autofocus required></td>
+        </tr>
+    
+        <tr>
+          <td><label for="sex">Gender: </label></td>
+          <td>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female" >
+            <labe for="female" >Female</label><br>
+            <input type="radio" id="other" name="gender" value="other" >
+            <label for="other">Other</label>
+          </td>
+        </tr>
+    
+       <tr>
+           <td><label for="eyeColor"> Eye Color </label></td>
+           <td>
+            <select name="eyeColor" id="eyeColor" size="1">
+            <option value="black" SELECTED>black</option>
+            <option value="brown">brown</option>
+            <option value="dbrown" >Dark brown</option>
+           
+           </select>
+         </td>
+      </tr>
+    
+      <tr>
+        <td><label for="checkAll">Weight</label></td> <td>
+        <input type="checkbox" id="featurel" name="featurel" value="40kg">
+        <label for="featurel"> 40 - 50kg</label><br>
+        <input type="checkbox" id="feature2" name="feature2" value="60kg">
+        <label for=" feature2">50 - 60kg</label><br>
+        <input type="checkbox" id="feature3" name="feature3" value="60kg">
+        <label for="feature3"> 60 - 70kg</label><br>
+        <input type="checkbox" id="feature4" name="feature4" value="60kg">
+        <label for="feature4"> Above 70</label><br>
+        </td>
+      </tr>
+    
+    <tr>
+        <td><label for="checkAll">Height</label></td> <td>
+        <input type="checkbox" id="featurel" name="featurel" value="5ft">
+        <label for="featurel"> > 5ft</label><br>
+        <input type="checkbox" id="feature2" name="feature2" value="6ft">
+        <label for=" feature2"> > 6ft</label><br>
+        <input type="checkbox" id="feature3" name="feature3" value="7ft">
+        <label for="feature3"> > 7ft</label><br>
+        <input type="checkbox" id="feature4" name="feature4" value="8ft">
+        <label for="feature4"> Above 8ft</label><br>
+        </td>
+      </tr>
+    
+     <tr>
+        <td><label for="ability">Input your physical Condition</label></td>
+        <td>
+        <textarea rows="10" cols="60" required></textarea>
+        </td>
+      </tr>
+    
+      <tr>
+        <td><label for="ability">Describe your physical ability</label></td>
+        <td>
+        <textarea rows="10" cols="60" required></textarea>
+        </td>
+      </tr>
+      </tbody>
+    
+      <tfoot>
+        <tr>
+            <th colspan="2"><input type="submit" id="btn1"</th>
+        </tr>
+      </tfoot>
+    
+     </table>
+</body>
+</html>
